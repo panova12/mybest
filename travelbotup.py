@@ -18,9 +18,8 @@ logger = logging.getLogger(__name__)
 # ========================
 class Config:
     def __init__(self):
-        self.BOT_TOKEN = "8219483767:AAFqAAIHoBU46ZdKsCNrlx0S__midMtp6pU"
-        self.GEMINI_API_KEY = "AIzaSyDs8mVi5vK0j-X07Oel3LBH3buICa4SA6o"
-        self.BASE_URL = f"https://api.telegram.org/bot{self.BOT_TOKEN}"
+        self.BOT_TOKEN = ""
+        self.GEMINI_API_KEY = ""        self.BASE_URL = f"https://api.telegram.org/bot{self.BOT_TOKEN}"
         self.PARSE_MODE = "HTML"
         self.POLL_TIMEOUT = 30
         
